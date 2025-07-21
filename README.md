@@ -17,9 +17,8 @@ Un fichier "patch_centers.csv" contenant les coordonnées des particules.
 
 git clone https://github.com/CyrilBonus/cilia_simulation.git
 cd cilia_simulation
-conda create -n cil_sim python=3.10
+conda env create -f cil_sim_requirements.yml -n cil_sim
 conda activate cil_sim
-pip install -r cil_sim_requirements.txt
 
 ```
 
