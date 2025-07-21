@@ -9,7 +9,7 @@ Ce script automatise le nettoyage, la compilation, l'exécution et la visualisat
 - make  
 - Dépendances Python : `matplotlib`, `numpy`, etc...
 
-⚠️ FICHIER INDISPENSABLE
+⚠️ **FICHIER INDISPENSABLE**
 
 **Vous devez impérativement fournir un fichier appelé `patch_centers.csv` dans le dossier du projet.**  
 Ce fichier contient les **coordonnées des particules** à simuler.  
