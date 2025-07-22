@@ -11,7 +11,7 @@ Ce script automatise le nettoyage, la compilation, l'exécution et la visualisat
 
 ⚠️ **FICHIER INDISPENSABLE**
 
-**Vous devez impérativement fournir un fichier appelé `patch_centers.csv` dans le dossier du projet.**  
+**Vous devez fournir un fichier appelé `cluster_centers.csv` dans le dossier du projet.**  
 Ce fichier contient les **coordonnées des particules** à simuler.  
 Sans ce fichier, **le programme ne fonctionnera pas.**
 
