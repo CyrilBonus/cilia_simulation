@@ -43,8 +43,8 @@ Le programme génère l’évolution des phases du système au cours du temps.
 
 À la fin de la simulation, deux interfaces s’affichent automatiquement :
 
- - une visualisation 3D de la surface des phases,
- - et heatmap 2D synchronisée.
+ - une visualisation 3D des phases,
+ - et une version heatmap 2D synchronisée.
 
 Dans l’interface 3D, un curseur vous permet de sélectionner l’instantané affiché dans les deux fenêtres.
 
