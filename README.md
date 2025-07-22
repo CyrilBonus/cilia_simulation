@@ -34,7 +34,7 @@ python3 simulation.py
 
 ```
 
-Selectionner les particules pertinentes, puis fermez la fenêtre.
+Selectionner **⚠️ AU MOINS DEUX** particules qui vous semblent être pertinentes, puis fermez la fenêtre.
 
 Entrez dans la console le nombre de temps souhaité pour la simulation, puis appuyez sur Entrée.
 Cette valeur correspond au nombre de fichiers .dat générés, soit le nombre d’instantanés temporels simulés.
