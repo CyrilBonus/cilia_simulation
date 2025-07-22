@@ -6,7 +6,8 @@ Ce script automatise le nettoyage, la compilation, l'exécution et la visualisat
 
 - Python 3  
 - bash  
-- make  
+- make
+- Conda (pour la gestion de l’environnement Python)  
 - Dépendances Python : `matplotlib`, `numpy`, etc...
 
 ⚠️ **FICHIER INDISPENSABLE**
@@ -17,6 +18,8 @@ Sans ce fichier, **le programme ne fonctionnera pas.**
 
 ## Installation
 
+# Avec Conda (recommandé)
+
 ```bash
 
 git clone https://github.com/CyrilBonus/cilia_simulation.git
@@ -25,6 +28,16 @@ conda create -n cil_sim
 conda activate cil_sim
 conda install numpy pandas matplotlib scikit-learn scipy
 ```
+
+# Sans Conda
+
+```bash
+
+git clone https://github.com/CyrilBonus/cilia_simulation.git
+cd cilia_simulation
+pip install numpy pandas matplotlib scikit-learn scipy
+```
+
 
 ## Utilisation
 
@@ -46,5 +59,5 @@ Le programme génère l’évolution des phases du système au cours du temps.
  - une visualisation 3D des phases,
  - et une version heatmap 2D en simultané.
 
-Dans l’interface 3D, un curseur vous permet de sélectionner l’instantané affiché dans les deux fenêtres.
+Dans l’interface 3D, un curseur vous permet de sélectionner l’instantané à afficher dans les deux fenêtres.
 
