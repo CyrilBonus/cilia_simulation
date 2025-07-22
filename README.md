@@ -18,7 +18,7 @@ Sans ce fichier, **le programme ne fonctionnera pas.**
 
 ## Installation
 
-# Avec Conda (recommandé)
+### Avec Conda (recommandé)
 
 ```bash
 
@@ -29,7 +29,7 @@ conda activate cil_sim
 conda install numpy pandas matplotlib scikit-learn scipy
 ```
 
-# Sans Conda
+### Sans Conda
 
 ```bash
 
