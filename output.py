@@ -35,11 +35,17 @@ def onselect(eclick, erelease):
     selected_points = [(x, y) for x, y in zip(x_vals, y_vals)
                        if xmin <= x <= xmax and ymin <= y <= ymax]
 
+    if len(selected_points) < 2:
+        print("Please select at least two points.")
+        selector.set_visible(False)  
+        fig.canvas.draw_idle()      
+        selector.set_active(True)    
+        return
+
     print(f"Selected {len(selected_points)} points.")
-    if selected_points:
-        df_selected = pd.DataFrame(selected_points, columns=['x', 'y'])
-        df_selected.to_csv('selected_points.csv', index=False, header=False)
-        print("Saved selected points to 'selected_points.csv'.")
+    df_selected = pd.DataFrame(selected_points, columns=['x', 'y'])
+    df_selected.to_csv('selected_points.csv', index=False, header=False)
+    print("Saved selected points to 'selected_points.csv'.")
 
 selector = RectangleSelector(
     ax2,
