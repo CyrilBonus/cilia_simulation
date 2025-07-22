@@ -48,7 +48,7 @@ python3 simulation.py
 
 ```
 
-Une fenêtre vous permettant de filtrer les éléments lus dans vootre fichier `cluster_centers.csv` vient de s'ouvrir.
+Une fenêtre vous permettant de filtrer les éléments lus dans votre fichier `cluster_centers.csv` vient de s'ouvrir.
 
 Selectionner **⚠️ AU MOINS DEUX** particules qui vous semblent être pertinentes, puis fermez la fenêtre.
 
