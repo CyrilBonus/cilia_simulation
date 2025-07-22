@@ -53,6 +53,7 @@ Une fenêtre vous permettant de filtrer les éléments lus dans vootre fichier `
 Selectionner **⚠️ AU MOINS DEUX** particules qui vous semblent être pertinentes, puis fermez la fenêtre.
 
 Entrez dans la console le nombre de temps souhaité pour la simulation, puis appuyez sur Entrée.
+
 Cette valeur correspond au nombre de fichiers .dat générés, soit le nombre d’instantanés temporels simulés.
 
 Le programme génère l’évolution des phases du système au cours du temps.
