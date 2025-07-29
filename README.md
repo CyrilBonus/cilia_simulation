@@ -7,6 +7,7 @@ Ce script automatise le nettoyage, la compilation, l'exécution et la visualisat
 - Python 3  
 - bash  
 - make
+- g++
 - git
 - Conda (recommandé) ou pip  
 - Dépendances Python (installation dans la section suivante) : `matplotlib`, `numpy`, etc...
